@@ -10,7 +10,7 @@ calcularPromedioSeasons(series);
 function mostrarSeriesEnTabla(sers: Serie[]): void{
     sers.forEach(c => {
         let trElement = document.createElement("tr");
-        trElement.style.backgroundColor = "lightgresy";
+        trElement.style.backgroundColor = "lightgrey";
         trElement.innerHTML = `<td><b>${c.numero}</b></td>
                            <td><a href="${c.link}">${c.name}</a></td>
                            <td>${c.channel}</td>

@@ -5,7 +5,7 @@ calcularPromedioSeasons(series);
 function mostrarSeriesEnTabla(sers) {
     sers.forEach(function (c) {
         var trElement = document.createElement("tr");
-        trElement.style.backgroundColor = "lightgresy";
+        trElement.style.backgroundColor = "lightgrey";
         trElement.innerHTML = "<td><b>".concat(c.numero, "</b></td>\n                           <td><a href=\"").concat(c.link, "\">").concat(c.name, "</a></td>\n                           <td>").concat(c.channel, "</td>\n                           <td>").concat(c.seasons, "</td>");
         seriesTbody.appendChild(trElement);
     });
